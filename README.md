@@ -7,7 +7,7 @@ En el archivo "ml_prod_practico1.ipynb" encontrará los ejercicios a realizar.
 
 Las dependencias de Python son módulos o bibliotecas que una aplicación de Python utiliza para su correcto funcionamiento. Existen diferentes herramientas para gestionar estas dependencias, siendo las más populares `pip`, `pip-tools`, `poetry`, `uv`, entre otras.
 
-Los prácticos son compatibles tanto con `pip` como con `poetry`, pero pueden buscar documentación de otras herramientas en su web, como por ejemplo [uv](https://github.com/astral-sh/uv) o pip-tools.
+Los prácticos son compatibles tanto con `poetry` como con `pip`, pero pueden buscar documentación de otras herramientas en su web, como por ejemplo [uv](https://github.com/astral-sh/uv) o pip-tools.
 
 
 ### 2.1 Instalación de poetry ***(PRIMERA OPCIÓN)***
