@@ -1,0 +1,28 @@
+[project]
+name = "clase-1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Santiago Morón Santos",email = "santimoron001@gmail.com"}
+]
+package-mode = false
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "numpy==1.26.4",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "scikit-learn",
+    "pandas<3.0",
+    "tf-keras (==2.15.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "plotly (>=6.6.0,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.2.0,<8.0.0)"
+]
