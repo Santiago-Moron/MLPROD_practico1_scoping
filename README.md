@@ -9,7 +9,8 @@ Las dependencias de Python son módulos o bibliotecas que una aplicación de Pyt
 
 Los prácticos son compatibles tanto con `poetry` como con `pip`, pero pueden buscar documentación de otras herramientas en su web, como por ejemplo [uv](https://github.com/astral-sh/uv) o pip-tools.
 
-
+<br>
+<br>
 ### 2.1 Instalación de poetry ***(PRIMERA OPCIÓN)***
 Para instalar poetry en su sistema operativo, siga los pasos de la documentación oficial:  [poetry](https://python-poetry.org/docs/#installing-with-the-official-installer)
 
@@ -28,11 +29,11 @@ poetry install
 
 
 
-En cambio, si se usa pip, recomendamos crear entorno virtuales con la librería `virtualenv`.
 
-
+<br>
+<br>
 ### 3.1 Instalación de virtualenv ***(SEGUNDA OPCIÓN)***
-
+En cambio, si se usa pip en vez de poetry, recomendamos crear entorno virtuales con la librería `virtualenv`.
 ```bash
 pip install virtualenv
 ```
