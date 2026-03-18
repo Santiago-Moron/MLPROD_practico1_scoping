@@ -11,6 +11,7 @@ Los prácticos son compatibles tanto con `poetry` como con `pip`, pero pueden bu
 
 <br>
 <br>
+
 ### 2.1 Instalación de poetry ***(PRIMERA OPCIÓN)***
 Para instalar poetry en su sistema operativo, siga los pasos de la documentación oficial:  [poetry](https://python-poetry.org/docs/#installing-with-the-official-installer)
 
@@ -32,6 +33,7 @@ poetry install
 
 <br>
 <br>
+
 ### 3.1 Instalación de virtualenv ***(SEGUNDA OPCIÓN)***
 En cambio, si se usa pip en vez de poetry, recomendamos crear entorno virtuales con la librería `virtualenv`.
 ```bash
